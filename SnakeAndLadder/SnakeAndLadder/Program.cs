@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Game dr = new Game();
-            dr.DieRoll();
-            Console.WriteLine(dr.DieRoll());
+            Game game = new Game();
+            game.Play();
 
         }
     }
