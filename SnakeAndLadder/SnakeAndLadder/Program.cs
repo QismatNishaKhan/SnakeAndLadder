@@ -6,7 +6,6 @@
         {
             Game player = new Game();
             player.Play();
-
         }
     }
 }
