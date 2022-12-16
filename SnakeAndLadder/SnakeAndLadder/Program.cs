@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Game game = new Game();
-            Console.WriteLine(game.playerposition);
+            Game dr = new Game();
+            dr.DieRoll();
+            Console.WriteLine(dr.DieRoll());
+
         }
     }
 }
